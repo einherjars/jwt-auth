@@ -1,5 +1,13 @@
-<?php namespace JwtAuth;
+<?php
+/**
+ * JwtAuthServiceProvider.php
+ * Created by anonymous on 04/04/16 12:47.
+ */
 
+namespace JwtAuth;
+
+use ReflectionClass;
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class JwtAuthServiceProvider extends ServiceProvider
